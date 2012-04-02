@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31C76802152A06650094A247 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C76801152A06650094A247 /* UIKit.framework */; };
+		31C76804152A06650094A247 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C76803152A06650094A247 /* Foundation.framework */; };
+		31C76806152A06650094A247 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C76805152A06650094A247 /* CoreGraphics.framework */; };
+		31C7680C152A06650094A247 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31C7680A152A06650094A247 /* InfoPlist.strings */; };
+		31C7680E152A06650094A247 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C7680D152A06650094A247 /* main.m */; };
+		31C76812152A06650094A247 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C76811152A06650094A247 /* AppDelegate.m */; };
+		31C76815152A06650094A247 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C76814152A06650094A247 /* MasterViewController.m */; };
+		31C76818152A06650094A247 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C76817152A06650094A247 /* DetailViewController.m */; };
+		31C7681B152A06650094A247 /* MasterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31C76819152A06650094A247 /* MasterViewController_iPhone.xib */; };
+		31C7681E152A06650094A247 /* MasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31C7681C152A06650094A247 /* MasterViewController_iPad.xib */; };
+		31C76821152A06650094A247 /* DetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31C7681F152A06650094A247 /* DetailViewController_iPhone.xib */; };
+		31C76824152A06650094A247 /* DetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31C76822152A06650094A247 /* DetailViewController_iPad.xib */; };
+		31C76835152A06F60094A247 /* C4MLocalizedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C76830152A06F60094A247 /* C4MLocalizedButton.m */; };
+		31C76836152A06F60094A247 /* C4MLocalizedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C76832152A06F60094A247 /* C4MLocalizedLabel.m */; };
+		31C76837152A06F60094A247 /* C4MLocalizedTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C76834152A06F60094A247 /* C4MLocalizedTextField.m */; };
+		31C7683A152A07050094A247 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31C7683C152A07050094A247 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31C767FD152A06650094A247 /* C4MLocalized.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C4MLocalized.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31C76801152A06650094A247 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		31C76803152A06650094A247 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		31C76805152A06650094A247 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		31C76809152A06650094A247 /* C4MLocalized-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "C4MLocalized-Info.plist"; sourceTree = "<group>"; };
+		31C7680B152A06650094A247 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		31C7680D152A06650094A247 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31C7680F152A06650094A247 /* C4MLocalized-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "C4MLocalized-Prefix.pch"; sourceTree = "<group>"; };
+		31C76810152A06650094A247 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31C76811152A06650094A247 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31C76813152A06650094A247 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		31C76814152A06650094A247 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		31C76816152A06650094A247 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		31C76817152A06650094A247 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		31C7681A152A06650094A247 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPhone.xib; sourceTree = "<group>"; };
+		31C7681D152A06650094A247 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPad.xib; sourceTree = "<group>"; };
+		31C76820152A06650094A247 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		31C76823152A06650094A247 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPad.xib; sourceTree = "<group>"; };
+		31C7682F152A06F60094A247 /* C4MLocalizedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4MLocalizedButton.h; sourceTree = "<group>"; };
+		31C76830152A06F60094A247 /* C4MLocalizedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C4MLocalizedButton.m; sourceTree = "<group>"; };
+		31C76831152A06F60094A247 /* C4MLocalizedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4MLocalizedLabel.h; sourceTree = "<group>"; };
+		31C76832152A06F60094A247 /* C4MLocalizedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C4MLocalizedLabel.m; sourceTree = "<group>"; };
+		31C76833152A06F60094A247 /* C4MLocalizedTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4MLocalizedTextField.h; sourceTree = "<group>"; };
+		31C76834152A06F60094A247 /* C4MLocalizedTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C4MLocalizedTextField.m; sourceTree = "<group>"; };
+		31C7683B152A07050094A247 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31C767FA152A06650094A247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C76802152A06650094A247 /* UIKit.framework in Frameworks */,
+				31C76804152A06650094A247 /* Foundation.framework in Frameworks */,
+				31C76806152A06650094A247 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31C767F2152A06650094A247 = {
+			isa = PBXGroup;
+			children = (
+				31C76807152A06650094A247 /* C4MLocalized */,
+				31C76800152A06650094A247 /* Frameworks */,
+				31C767FE152A06650094A247 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31C767FE152A06650094A247 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31C767FD152A06650094A247 /* C4MLocalized.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31C76800152A06650094A247 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31C76801152A06650094A247 /* UIKit.framework */,
+				31C76803152A06650094A247 /* Foundation.framework */,
+				31C76805152A06650094A247 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31C76807152A06650094A247 /* C4MLocalized */ = {
+			isa = PBXGroup;
+			children = (
+				31C76810152A06650094A247 /* AppDelegate.h */,
+				31C76811152A06650094A247 /* AppDelegate.m */,
+				31C76813152A06650094A247 /* MasterViewController.h */,
+				31C76814152A06650094A247 /* MasterViewController.m */,
+				31C76816152A06650094A247 /* DetailViewController.h */,
+				31C76817152A06650094A247 /* DetailViewController.m */,
+				31C76819152A06650094A247 /* MasterViewController_iPhone.xib */,
+				31C7681C152A06650094A247 /* MasterViewController_iPad.xib */,
+				31C7681F152A06650094A247 /* DetailViewController_iPhone.xib */,
+				31C76822152A06650094A247 /* DetailViewController_iPad.xib */,
+				31C7683C152A07050094A247 /* Localizable.strings */,
+				31C7682E152A06F60094A247 /* LocalizedObject */,
+				31C76808152A06650094A247 /* Supporting Files */,
+			);
+			path = C4MLocalized;
+			sourceTree = "<group>";
+		};
+		31C76808152A06650094A247 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31C76809152A06650094A247 /* C4MLocalized-Info.plist */,
+				31C7680A152A06650094A247 /* InfoPlist.strings */,
+				31C7680D152A06650094A247 /* main.m */,
+				31C7680F152A06650094A247 /* C4MLocalized-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31C7682E152A06F60094A247 /* LocalizedObject */ = {
+			isa = PBXGroup;
+			children = (
+				31C7682F152A06F60094A247 /* C4MLocalizedButton.h */,
+				31C76830152A06F60094A247 /* C4MLocalizedButton.m */,
+				31C76831152A06F60094A247 /* C4MLocalizedLabel.h */,
+				31C76832152A06F60094A247 /* C4MLocalizedLabel.m */,
+				31C76833152A06F60094A247 /* C4MLocalizedTextField.h */,
+				31C76834152A06F60094A247 /* C4MLocalizedTextField.m */,
+			);
+			path = LocalizedObject;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31C767FC152A06650094A247 /* C4MLocalized */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31C76827152A06650094A247 /* Build configuration list for PBXNativeTarget "C4MLocalized" */;
+			buildPhases = (
+				31C767F9152A06650094A247 /* Sources */,
+				31C767FA152A06650094A247 /* Frameworks */,
+				31C767FB152A06650094A247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = C4MLocalized;
+			productName = C4MLocalized;
+			productReference = 31C767FD152A06650094A247 /* C4MLocalized.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31C767F4152A06650094A247 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 31C767F7152A06650094A247 /* Build configuration list for PBXProject "C4MLocalized" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 31C767F2152A06650094A247;
+			productRefGroup = 31C767FE152A06650094A247 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31C767FC152A06650094A247 /* C4MLocalized */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31C767FB152A06650094A247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C7680C152A06650094A247 /* InfoPlist.strings in Resources */,
+				31C7681B152A06650094A247 /* MasterViewController_iPhone.xib in Resources */,
+				31C7681E152A06650094A247 /* MasterViewController_iPad.xib in Resources */,
+				31C76821152A06650094A247 /* DetailViewController_iPhone.xib in Resources */,
+				31C76824152A06650094A247 /* DetailViewController_iPad.xib in Resources */,
+				31C7683A152A07050094A247 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31C767F9152A06650094A247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C7680E152A06650094A247 /* main.m in Sources */,
+				31C76812152A06650094A247 /* AppDelegate.m in Sources */,
+				31C76815152A06650094A247 /* MasterViewController.m in Sources */,
+				31C76818152A06650094A247 /* DetailViewController.m in Sources */,
+				31C76835152A06F60094A247 /* C4MLocalizedButton.m in Sources */,
+				31C76836152A06F60094A247 /* C4MLocalizedLabel.m in Sources */,
+				31C76837152A06F60094A247 /* C4MLocalizedTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		31C7680A152A06650094A247 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31C7680B152A06650094A247 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		31C76819152A06650094A247 /* MasterViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31C7681A152A06650094A247 /* en */,
+			);
+			name = MasterViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		31C7681C152A06650094A247 /* MasterViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31C7681D152A06650094A247 /* en */,
+			);
+			name = MasterViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		31C7681F152A06650094A247 /* DetailViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31C76820152A06650094A247 /* en */,
+			);
+			name = DetailViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		31C76822152A06650094A247 /* DetailViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31C76823152A06650094A247 /* en */,
+			);
+			name = DetailViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		31C7683C152A07050094A247 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31C7683B152A07050094A247 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31C76825152A06650094A247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31C76826152A06650094A247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31C76828152A06650094A247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "C4MLocalized/C4MLocalized-Prefix.pch";
+				INFOPLIST_FILE = "C4MLocalized/C4MLocalized-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		31C76829152A06650094A247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "C4MLocalized/C4MLocalized-Prefix.pch";
+				INFOPLIST_FILE = "C4MLocalized/C4MLocalized-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31C767F7152A06650094A247 /* Build configuration list for PBXProject "C4MLocalized" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C76825152A06650094A247 /* Debug */,
+				31C76826152A06650094A247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31C76827152A06650094A247 /* Build configuration list for PBXNativeTarget "C4MLocalized" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C76828152A06650094A247 /* Debug */,
+				31C76829152A06650094A247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31C767F4152A06650094A247 /* Project object */;
+}
